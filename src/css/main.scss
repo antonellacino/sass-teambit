@@ -1,0 +1,28 @@
+.section-one {
+    @include flex;
+    @include section;
+    &>div {
+        width: 50%;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: 100;
+        padding-right: 80px;
+    }
+    h2 {
+        margin: 40px 0;
+        font-weight: 100;
+        padding-right: 50px;
+    }
+    img {
+        width: 100%;
+        margin-left: 20px;
+    }
+    button {
+        @include btn;
+        margin-bottom: 20px;
+    }
+    a {
+        font-size: 12px;
+    }
+}

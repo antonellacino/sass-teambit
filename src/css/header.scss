@@ -1,0 +1,35 @@
+.privacy {
+    background-color: #FFE7D2;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navigation {
+    @include section(0);
+    @include flex;
+    height: 70px;
+    border-bottom: 1px solid gray;
+    ul {
+        @include flex;
+        list-style: none;
+        li {
+            margin-left: 10px;
+            font-weight: bold;
+            @include flex(flex-start);
+            button {
+                width: 80px;
+                height: 30px;
+                border: 1px solid #2E4691;
+                border-radius: 5px;
+                background-color: white;
+            }
+            i {
+                font-size: 14px;
+            }
+        }
+    }
+}
