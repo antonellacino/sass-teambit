@@ -99,10 +99,12 @@
   font-size: 12px;
 }
 
-.section-two {
+.section-two,
+.section-three {
   background-color: #FFE7D2;
   text-align: center;
   margin-bottom: 1px solid gray;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -130,9 +132,32 @@
   width: 130px;
 }
 
+.rabbit {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+  border-bottom: 1px solid gray;
+}
+
 .rabbit img {
   height: 280px;
   width: 286px;
   margin: 30px;
+}
+
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-four img {
+  height: 530px;
+  width: 850px;
+}
+
+img.animals {
+  height: 200px;
+  width: 200px;
 }
 
