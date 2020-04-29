@@ -99,3 +99,40 @@
   font-size: 12px;
 }
 
+.section-two {
+  background-color: #FFE7D2;
+  text-align: center;
+  margin-bottom: 1px solid gray;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+  text-align: center;
+  width: 40%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+
+.row div {
+  margin: 20px;
+}
+
+.row img {
+  height: 110px;
+  width: 130px;
+}
+
+.rabbit img {
+  height: 280px;
+  width: 286px;
+  margin: 30px;
+}
+

@@ -26,3 +26,35 @@
         font-size: 12px;
     }
 }
+
+// section-two--------------------------------------
+.section-two {
+    background-color: #FFE7D2;
+    text-align: center;
+    margin-bottom: 1px solid gray;
+}
+
+.container {
+    @include section;
+    text-align: center;
+    width: 40%;
+}
+
+.row {
+    @include flex;
+    width: 60%;
+    margin: auto;
+    div {
+        margin: 20px;
+    }
+    img {
+        height: 110px;
+        width: 130px;
+    }
+}
+
+.rabbit img {
+    height: 280px;
+    width: 286px;
+    margin: 30px;
+}
