@@ -6,6 +6,10 @@
   color: #58402C;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .privacy {
   background-color: #FFE7D2;
   width: 100%;
@@ -54,6 +58,11 @@
   font-size: 14px;
 }
 
+.fa-arrow-right {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
 .section-one {
   display: flex;
   align-items: center;
@@ -100,10 +109,10 @@
 }
 
 .section-two,
-.section-three {
+.section-three,
+.section-eight {
   background-color: #FFE7D2;
   text-align: center;
-  margin-bottom: 1px solid gray;
   padding-bottom: 30px;
 }
 
@@ -145,19 +154,127 @@
   margin: 30px;
 }
 
-.section-four {
+.section-three .rabbit {
+  border-bottom: none;
+}
+
+.section-four,
+.section-five,
+.section-six,
+.section-seven {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 85%;
+  padding: 50px 0;
 }
 
-.section-four img {
+.section-four img,
+.section-five img,
+.section-six img,
+.section-seven img {
   height: 530px;
-  width: 850px;
+  width: 860px;
+}
+
+.section-four h1,
+.section-five h1,
+.section-six h1,
+.section-seven h1 {
+  font-size: 25px;
+}
+
+.section-four p,
+.section-five p,
+.section-six p,
+.section-seven p {
+  font-size: 25px;
+  margin: 20px 0;
+  padding-right: 30px;
 }
 
 img.animals {
-  height: 200px;
+  height: 230px;
+  width: 300px;
+  margin: 60px 40px 30px;
+}
+
+.section-five,
+.section-seven {
+  margin-left: 15%;
+}
+
+.section-eight {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-eight div h1 {
+  font-size: 40px;
+}
+
+.section-eight div img {
+  height: 550px;
+  width: 720px;
+  margin-right: 5%;
+}
+
+.section-eight button {
+  width: 150px;
+  height: 45px;
+  background-color: #2E4691;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 20px;
   width: 200px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+footer ul {
+  list-style: none;
+  line-height: 35px;
+}
+
+footer ul li {
+  font-size: 12px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+footer div {
+  margin-right: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.logo a {
+  color: #2E4691;
 }
 

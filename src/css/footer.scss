@@ -1,0 +1,33 @@
+footer {
+    @include flex(flex-start);
+    @include section;
+    ul {
+        list-style: none;
+        line-height: 35px;
+        li {
+            font-size: 12px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    span {
+        font-weight: bold;
+    }
+    div {
+        margin-right: 50px;
+    }
+}
+
+.logo {
+    @include flex(flex-start);
+    font-size: 20px;
+    font-weight: 400;
+    img {
+        width: 60px;
+        margin-right: 20px;
+    }
+    a {
+        color: #2E4691;
+    }
+}

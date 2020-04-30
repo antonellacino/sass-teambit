@@ -6,6 +6,10 @@
     color: #58402C;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 // ---MIXIN-------------------------
 @mixin section($padding:70px 0) {
     width: 80%;
@@ -27,8 +31,10 @@
     border-radius: 10px;
     border: none;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 // IMPORTAZIONI------------------------------
 @import "css/header";
 @import "css/main";
+@import "css/footer";
