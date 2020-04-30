@@ -10,6 +10,15 @@ a:hover {
   cursor: pointer;
 }
 
+.fa-arrow-right {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+body:scroll .navigation {
+  margin-top: 0;
+}
+
 .privacy {
   background-color: #FFE7D2;
   width: 100%;
@@ -29,6 +38,7 @@ a:hover {
   justify-content: space-between;
   height: 70px;
   border-bottom: 1px solid gray;
+  background-color: white;
 }
 
 .navigation ul {
@@ -56,11 +66,6 @@ a:hover {
 
 .navigation ul li i {
   font-size: 14px;
-}
-
-.fa-arrow-right {
-  font-size: 14px;
-  margin-left: 10px;
 }
 
 .section-one {
@@ -102,6 +107,11 @@ a:hover {
   border: none;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.section-one button img {
+  width: 25px;
+  height: 25px;
 }
 
 .section-one a {
@@ -229,6 +239,12 @@ img.animals {
   font-weight: bold;
   margin-bottom: 20px;
   width: 200px;
+  line-height: 10px;
+}
+
+.section-eight button img {
+  width: 25px;
+  height: 25px;
 }
 
 footer {

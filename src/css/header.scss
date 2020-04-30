@@ -13,6 +13,7 @@
     @include flex;
     height: 70px;
     border-bottom: 1px solid gray;
+    background-color: white;
     ul {
         @include flex;
         list-style: none;

@@ -1,8 +1,4 @@
-.fa-arrow-right {
-    font-size: 14px;
-    margin-left: 10px;
-}
-
+// section-two--------------------------------------
 .section-one {
     @include flex;
     @include section;
@@ -124,5 +120,6 @@ img.animals {
     button {
         @include btn;
         width: 200px;
+        line-height: 10px;
     }
 }
